@@ -1,0 +1,112 @@
+D-Model-Using-Blender
+
+--> Download Blender Software from the chrome.
+
+  “ https://www.blender.org/download/ ”
+  
+--> Start Installing the blender by adding path in environmental variables.
+
+--> Start Creating a new projects in the blender software.
+
+--> These are the basic requirements required for creating our first project on the blender software.
+Brief Summary of the Project:
+
+--> We desire to generate modular 3D human models to capture the following variations:
+
+•Appearance (Identities – racial, face shape, eyes)
+•Hair style and colour
+•Eyebrows and Facial Hair styles
+•Skin tone changes
+•Clothes and (props such as caps and glasses)
+•Compared 3D graphic packages for building modular 3D human models and adding point light source to relighting. Some of the packages that explored are - Blender & Unity.
+
+--> Imported Libraries:
+• NumPy
+• Blender Python
+• Rotation Matrix
+• Math libraries.
+
+Procedure followed:
+
+--> Initially we can create a 3D model using the cubes in the blender software and can be modified with the tools which were available in the software
+
+--> In same way we can add the different light sources like (Point light, Sun light, Area light) and these lights intensity can be adjusted based on our wish and choice.
+
+Follow this link for detailed explanation about light source:
+
+“ https://all3dp.com/2/blender-lighting-simply-explained/ “
+
+--> Camera itself plays a major role in capturing the image or in rendering of the image in different views (Front View, Rear View, Orthographic View).
+Follow below link:
+
+“ https://docs.blender.org/manual/en/latest/render/cameras.html ”
+
+Rendering Process:
+
+--> In rendering we can render the image using camera
+
+Rendering is when the computer calculates the light in our scene to create the final image or animation.
+
+--> Rendering in blender includes different geometries, materials, light setup,textures, background.
+
+--> Rendering will also have different built-in engines Ex: Cycles and Eevee where these two engines aim to be similar in look but work completely different.
+
+--> This completely affects performance.
+
+Follow the link:
+
+“ https://docs.blender.org/manual/en/latest/render/index.html ”
+
+Importing Images:
+
+-->Importing a external 3D model into a blender software makes the workflow very easy.
+
+--> 3D models with different pops and caps will change the outfit and may lead to some changes under the light of different sources.
+
+Follow the link:
+
+“ https://www.turbosquid.com/ ”
+
+Scripting:
+
+--> Scripting is a blender is a major part to complete the project .
+
+--> Mainly in console itself we will resolve the errors whatever we faced in the main scripting file in python language.
+
+--> For example, if there is a issue like not adding camera in software environment in such conditions it can be checked or resolved by the following methods.
+
+• Bpy.
+• Bpy.utils.
+• Bpy.utils.context.
+
+-- >After completion of entering the data, we must press the “TAB” In such a way we will add it to the software.
+
+--> It will show the next available steps to be open and to add the objects or path to the software which makes the process easier.
+
+Follow the link:
+
+https://docs.blender.org/api/current/info_quickstart.html ”
+
+--> You can check the “https://github.ecodesamsung.com/SRIB-PRISM/3D-Model-Using-Blender/blob/main/Final%20Script/Final%20Model%20ReadMe.txt ” for complete procedure for creating a script file to run a model and to achieve a dataset.
+
+--> Assigning a path should be done with much care where it leads to errors of privacy concerns.
+
+Ex: “D:\Samsung Prism\3D Models\Dataset - 2” or “C:\\Samsung Prism\\3D Models\\Dataset - 2”
+
+--> Finally, dataset will be generated and will store in a particular path provided.
+
+Refer the link:
+
+“ https://github.ecodesamsung.com/SRIB-PRISM/3D-Model-Using-Blender/tree/main/Dataset ”
+
+Drawbacks from blender and unity:
+
+• Blender is well known for its easy workflow. The software is very customizable with hotkeys and layout changes. Blender also integrates with many other programs for easy importing and exporting of files.
+
+• One drawback of both programs is the computing power that is needed to keep each program running. It can be a big stress on a computer to run Blender or Unity, especially while rendering.
+
+• Blender uses Cycles, a ray-trace-based render engine. It can utilize multiple CPU and GPU cores for geometry, subdivision, displacement, shading, lighting, motion blur, and many more aspects of 3D rendering.
+
+• Unity uses the Universal Rendering Pipeline for rendering, a scalable multiplatform pipeline.
+
+Unity has a wide range of 3D features that make it great for 3D design. The software can be used for 3D modeling, animation, rendering.
